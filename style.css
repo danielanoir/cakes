@@ -1,6 +1,7 @@
 .nav {
   display: flex;
   flex-direction: row;
+  flex-flow: wrap;
   width: 100%; }
   .nav h1 {
     font-family: 'Open Sans Condensed', sans-serif;
