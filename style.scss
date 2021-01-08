@@ -1,0 +1,25 @@
+.nav {
+display: flex;
+flex-direction: row;
+width: 100%;
+  h1 {
+    // font-family: 'Sacramento', cursive;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 3em;
+  }
+  .sidebar {
+    margin-left: auto;
+    margin-right: 0px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 2em;
+    padding: 20px;
+  }
+}
+.images {
+  display: flex;
+  flex-flow: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
