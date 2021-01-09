@@ -2,16 +2,27 @@
   display: flex;
   flex-direction: row;
   flex-flow: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 30vh;
   width: 100%; }
-  .nav h1 {
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 3em; }
   .nav .sidebar {
-    margin-left: auto;
-    margin-right: 0px;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 2em;
-    padding: 20px; }
+    color: #592502; }
+  .nav a:hover {
+    color: #eb57be; }
+  .nav h1 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 3em;
+    color: #592502; }
+  .nav .mail {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 2em;
+    text-decoration: none;
+    border: solid #eb57be .5px;
+    padding: 10px;
+    color: #592502; }
 
 .images {
   display: flex;
