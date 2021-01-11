@@ -82,6 +82,25 @@ width: 100%;
   }
 }
 
+.about {
+  width: 98vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Open Sans Condensed', sans-serif;
+  border-top: solid black .5px;
+  margin-top: 3em;
+  h1 {
+    font-size: 3em;
+    padding-top: 3em;
+  }
+  p {
+    font-size: 2em;
+  }
+}
+
+
 .footer {
   width: 98vw;
   display: flex;

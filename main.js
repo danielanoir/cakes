@@ -7,11 +7,18 @@ $( document ).ready(function() {
             'slow');
     });
 
+    $(".aboutButton").click(function() {
+      $('html,body').animate({
+        scrollTop: $(".about").offset().top},
+        'slow');
+      });
+
     $(".locationButton").click(function() {
         $('html,body').animate({
             scrollTop: $(".footer").offset().top},
             'slow');
     });
+
 
 
 });
