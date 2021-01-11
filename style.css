@@ -30,7 +30,8 @@
   background-image: url("images/flower6.jpg");
   background-size: contain;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  margin-bottom: 100px; }
 
 .images {
   display: flex;
@@ -38,5 +39,19 @@
   flex-direction: row;
   justify-content: center;
   align-items: center; }
+  .images .imgDiv {
+    border: solid #eb57be .5px;
+    padding: 0px 0px 20px 0px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; }
+    .images .imgDiv h3 {
+      font-family: 'Open Sans Condensed', sans-serif;
+      font-size: 2em; }
+    .images .imgDiv p {
+      font-family: 'Open Sans Condensed', sans-serif;
+      font-size: 1.5em; }
 
 /*# sourceMappingURL=style.css.map */
