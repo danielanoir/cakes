@@ -4,7 +4,8 @@
   flex-flow: wrap;
   justify-content: space-around;
   align-items: center;
-  height: 30vh;
+  height: 20vh;
+  min-height: 200px;
   width: 100%; }
   .nav .sidebar {
     font-family: 'Open Sans Condensed', sans-serif;
@@ -32,7 +33,18 @@
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 100px; }
+  .backgroundFlower h1 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 3em;
+    padding: 100px 0px 0px 100px; }
+  .backgroundFlower p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 2em;
+    padding: 0px 0px 0px 100px; }
 
+@media (max-width: 600px) {
+  .backgroundFlower {
+    display: none; } }
 .images {
   display: flex;
   flex-flow: wrap;
