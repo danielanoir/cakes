@@ -89,18 +89,30 @@ width: 100%;
 .about {
   width: 98vw;
   display: flex;
-  justify-content: center;
+  // justify-content: center;
   align-items: center;
   flex-direction: column;
+  // text-align: center;
   font-family: 'Open Sans Condensed', sans-serif;
   border-top: solid black .5px;
   margin-top: 3em;
+  .imageText {
+    display: flex;
+    flex-direction: row;
+  }
+  img {
+    width: 200px;
+    padding: 20px;
+  }
   h1 {
     font-size: 3em;
     padding-top: 3em;
   }
   p {
+    max-width: 700px;
     font-size: 2em;
+    // text-align: center;
+    margin: auto;
   }
 }
 
