@@ -11,6 +11,9 @@
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 2em;
     color: #592502; }
+  .nav a {
+    color: #592502;
+    text-decoration: none; }
   .nav a:hover {
     color: #eb57be; }
   .nav h1 {
