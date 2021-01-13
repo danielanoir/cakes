@@ -138,6 +138,45 @@ width: 100%;
   }
 }
 
+.closeBtn {
+      background-color: #f4abf7;
+      color: black;
+      border: none;
+      font-size: 2em;
+    }
+    .formPopup {
+      display: none;
+      position: fixed;
+      bottom: 0;
+      right: 15px;
+      z-index: 9;
+      padding: 10px;
+      background-color: #f4abf7;
+    }
+    .contactForm {
+      max-width: 800px;
+      max-height: 600px;
+      padding: 10px;
+      color: black;
+      display: flex;
+      flex-direction: column;
+      input {
+        margin: 10px;
+        padding: 10px;
+      }
+      .message {
+        margin: 10px;
+        padding: 10px;
+        // height: 150px;
+      }
+      .btn {
+        padding: 10px;
+        margin: 10px;
+
+      }
+    }
+
+
 
 .footer {
   width: 98vw;
